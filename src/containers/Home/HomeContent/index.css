@@ -1,0 +1,18 @@
+.container-home-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.box-btn-left {
+  display: flex;
+  flex: 5;
+  margin-left: 50px;
+}
+
+.box-btn-right {
+  display: flex;
+  flex: 5;
+  justify-content: flex-end;
+  margin-right: 50px;
+}

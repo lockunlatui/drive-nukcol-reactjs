@@ -1,0 +1,26 @@
+.containers {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: calc(100vh);
+}
+
+.container-menu {
+  flex: 2;
+  background-color: #ffffff;
+  box-shadow: #eff2f8 1px 1px 1px 1px;
+}
+
+.container-content {
+  flex: 5;
+}
+
+.container-right {
+  flex: 3;
+  background-color: #ffffff;
+  box-shadow: #eff2f8 1px 1px 1px 1px;
+}
+
+.h1-nukcol {
+  color: #6470c8;
+}
