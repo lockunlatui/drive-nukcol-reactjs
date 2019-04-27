@@ -13,6 +13,7 @@
 
 .container-content {
   flex: 5;
+  margin: 50px;
 }
 
 .container-right {

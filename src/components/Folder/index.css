@@ -1,0 +1,75 @@
+
+.box-folder {
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  background-color: #eff2f8;
+  height: 245px;
+  width: 282px;
+}
+
+.box-icon-folder {
+  font-size: 280px;
+  position: absolute;
+  box-shadow: #eff2f8 1px 1px 1px 1px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.box-icon-folder:hover {
+  color: #6a75ca
+}
+
+.box-content-folder {
+  position: absolute;
+  width: 240px;
+}
+
+.box-title-folder {
+  font-size: 10px;
+  color: #a1a8de;
+  top: 85px;
+  margin-left: 25px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  position: absolute;
+}
+
+.box-folder-container-img {
+  margin-left: 25px;
+  position: absolute;
+  top: 110px;
+}
+
+.box-folder-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  margin-right: 10px;
+}
+
+.box-bottom-folder {
+  font-size: 10px;
+  color: #a1a8de;
+  top: 190px;
+  margin-left: 25px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  position: absolute;
+}
+
+.box-bottom-folder-name {
+  font-size: 16px;
+  color: #000;
+  margin-left: 25px;
+  margin-top: 5px;
+  font-weight: 400;
+  position: absolute;
+  top: 205px;
+}
+
+.box-folder:hover  .box-bottom-folder-name{
+  color: #fff;
+  cursor: pointer;
+}
+

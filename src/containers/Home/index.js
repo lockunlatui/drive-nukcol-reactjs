@@ -2,7 +2,7 @@
  * @Author: Do Loc - doxuanloc2016@gmail.com 
  * @Date: 2019-04-24 21:56:41 
  * @Last Modified by: Do Loc - doxuanloc2016@gmail.com
- * @Last Modified time: 2019-04-25 21:40:07
+ * @Last Modified time: 2019-04-27 01:17:58
  */
 
 import React from 'react';
@@ -22,7 +22,7 @@ function Home() {
         <HomeContent />
       </div>
       <div className="container-right">
-        <input type="text" />
+      
       </div>
     </div>
   )
