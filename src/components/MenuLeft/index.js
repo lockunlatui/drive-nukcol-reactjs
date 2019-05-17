@@ -2,7 +2,7 @@
  * @Author: Do Loc - doxuanloc2016@gmail.com 
  * @Date: 2019-04-24 21:55:54 
  * @Last Modified by: Do Loc - doxuanloc2016@gmail.com
- * @Last Modified time: 2019-04-27 14:37:40
+ * @Last Modified time: 2019-05-01 00:11:56
  */
 
 import React from 'react';
@@ -11,7 +11,7 @@ import { faCompass } from '@fortawesome/free-regular-svg-icons';
 
 import Item from '../Item';
 
-import Avatar from '../../images/doxuanloc.jpg';
+import Avatar from '../../images/man.png';
 
 import mocks from '../../mocks';
 
@@ -30,7 +30,7 @@ function MenuLeft() {
       </div>
       {mocks.mockItems.map((listCategory) => {
         return (
-          <div key={listCategory.idCategory}>
+          <div className="wrap-item" key={listCategory.idCategory}>
             <h3 className="header-title">{listCategory.nameCategory.toUpperCase()}</h3>
             <ul className="list-item">
             {listCategory.category.length !== 0 ?

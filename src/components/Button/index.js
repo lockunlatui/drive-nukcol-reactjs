@@ -2,7 +2,7 @@
  * @Author: Do Loc - doxuanloc2016@gmail.com 
  * @Date: 2019-04-26 00:08:40 
  * @Last Modified by: Do Loc - doxuanloc2016@gmail.com
- * @Last Modified time: 2019-04-26 00:30:13
+ * @Last Modified time: 2019-04-27 22:15:28
  */
 
 import React from 'react';
@@ -19,7 +19,8 @@ function Button(props) {
       border: props.border,
       borderRadius: props.borderRadius,
       boxShadow: props.boxShadow,
-      fontWeight: props.fontWeight
+      fontWeight: props.fontWeight,
+      letterSpacing: props.letterSpacing
     }}>{props.name}{props.children}</button>
   )
 }

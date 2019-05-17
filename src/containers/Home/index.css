@@ -1,27 +1,26 @@
 .containers {
-  display: flex;
   flex-direction: row;
-  flex: 1;
   min-height: calc(100vh);
+  display: flex;
 }
 
 .container-menu {
-  flex: 2;
   background-color: #ffffff;
   box-shadow: #eff2f8 1px 1px 1px 1px;
 }
 
-.container-content {
-  flex: 5;
-  margin: 50px;
-}
-
 .container-right {
-  flex: 3;
+  width: 345px;
   background-color: #ffffff;
   box-shadow: #eff2f8 1px 1px 1px 1px;
 }
 
 .h1-nukcol {
   color: #6470c8;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }

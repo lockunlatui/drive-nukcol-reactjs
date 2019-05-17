@@ -1,23 +1,25 @@
-
 .box-folder {
-  margin-right: 20px;
+  margin-right: 15px;
   position: relative;
   display: flex;
   background-color: #eff2f8;
-  height: 245px;
-  width: 282px;
+  height: 205px;
+  width: 215px;
+  flex: 1 1 215px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  justify-content: flex-start;
 }
 
 .box-icon-folder {
-  font-size: 280px;
+  font-size: 230px;
   position: absolute;
-  box-shadow: #eff2f8 1px 1px 1px 1px;
   color: #fff;
   cursor: pointer;
 }
 
 .box-icon-folder:hover {
-  color: #6a75ca
+  color: #6a75ca;
 }
 
 .box-content-folder {
@@ -27,18 +29,23 @@
 
 .box-title-folder {
   font-size: 10px;
-  color: #a1a8de;
-  top: 85px;
+  color: #b4b4ba;
+  top: 70px;
   margin-left: 25px;
   letter-spacing: 1px;
   font-weight: 400;
   position: absolute;
 }
 
+.box-folder:hover .box-title-folder:not(:hover) {
+  color: #9ca2db;
+}
+
+
 .box-folder-container-img {
   margin-left: 25px;
   position: absolute;
-  top: 110px;
+  top: 95px;
 }
 
 .box-folder-img {
@@ -50,12 +57,16 @@
 
 .box-bottom-folder {
   font-size: 10px;
-  color: #a1a8de;
-  top: 190px;
+  color: #b4b4ba;
+  top: 148px;
   margin-left: 25px;
   letter-spacing: 1px;
   font-weight: 400;
   position: absolute;
+}
+
+.box-folder:hover .box-bottom-folder:not(:hover)  {
+  color: #9ca2db;
 }
 
 .box-bottom-folder-name {
@@ -65,11 +76,9 @@
   margin-top: 5px;
   font-weight: 400;
   position: absolute;
-  top: 205px;
+  top: 165px;
 }
 
-.box-folder:hover  .box-bottom-folder-name{
+.box-folder:hover .box-bottom-folder-name:not(:hover) {
   color: #fff;
-  cursor: pointer;
 }
-
